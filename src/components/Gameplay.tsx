@@ -106,7 +106,7 @@ function Gameplay(props: any) {
     setSelectedAnswer(null);
   }, [points]);
 
-  if (flagsShowed < 11) {
+  if (flagsShowed <= 10) {
     return (
       <>
         <div className="h-screen grid place-content-center">
@@ -170,7 +170,7 @@ function Gameplay(props: any) {
               One more
             </button>
             <p className="cursor-default text-[2rem] m-2 font-nunito text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:drop-shadow-md">
-              You've guessed {Math.floor(points)} flags!
+              You've guessed {(Math.floor(points) * 100) / 10}% of showed flags!
             </p>
           </div>
         </div>
