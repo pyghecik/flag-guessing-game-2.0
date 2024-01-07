@@ -170,7 +170,8 @@ function Gameplay(props: any) {
               One more
             </button>
             <p className="cursor-default text-[2rem] m-2 font-nunito text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:drop-shadow-md">
-              You've guessed {(Math.floor(points) * 100) / 10}% of showed flags!
+              You've guessed <b>{(Math.floor(points) * 100) / 10}%</b> of showed
+              flags!
             </p>
           </div>
         </div>
