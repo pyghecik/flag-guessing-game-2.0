@@ -106,7 +106,7 @@ function Gameplay(props: any) {
     setSelectedAnswer(null);
   }, [points]);
 
-  if (flagsShowed <= 10) {
+  if (flagsShowed < 11) {
     return (
       <>
         <div className="h-screen grid place-content-center">
