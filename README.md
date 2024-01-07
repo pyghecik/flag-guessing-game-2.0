@@ -4,5 +4,6 @@
  - React.js
  - Vite.js
  - Axios (Library to fetch data from API)
+ - Typescript
  # Try it yourself
  https://pyghecik.github.io/flag-guessing-game-2.0/
